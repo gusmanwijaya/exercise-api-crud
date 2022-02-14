@@ -26,7 +26,6 @@ var server = http.createServer(app);
  */
 
 const sequelize = require("../config/testDb");
-
 async function testDatabase() {
   try {
     await sequelize.authenticate();
